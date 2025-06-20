@@ -1,0 +1,9 @@
+fruits={'apple','banana','orange'}
+
+fruits_dict={fruit:index for index,fruit in enumerate(fruits)}
+
+print(fruits_dict)
+
+==============================
+
+{'banana': 0, 'apple': 1, 'orange': 2}
